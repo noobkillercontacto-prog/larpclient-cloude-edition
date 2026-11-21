@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.larpclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinGameRenderer",
+    "MixinClientPlayerEntity",
+    "MixinMinecraftClient",
+    "MixinWorldRenderer",
+    "MixinBackgroundRenderer"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
